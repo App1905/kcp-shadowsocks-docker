@@ -1,2 +1,2 @@
-export VERSION=v20180224
+export VERSION=v20180305
 docker build . -t kcp-shadowsocks-docker:$VERSION
