@@ -22,6 +22,11 @@ or just:
 
 --crypt none --mode fast --mtu 1350 --sndwnd 1024 --rcvwnd 1024 --parityshard 10 --nocomp
 
+for mac client: 
+
+crypt=none;mode=fast;mtu=1350;sndwnd=1024;rcvwnd=1024;datashard=10;parityshard=10;nocomp=true;
+
+
 ## Default configuration in environment variables
 
 | ENV         | Value    |
